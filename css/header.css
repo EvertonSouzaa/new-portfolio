@@ -1,0 +1,31 @@
+.container-header {
+  max-width: 1200px;
+  display: flex;
+  margin: 0 auto;
+  padding: 40px 20px;
+  background: #fff;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  height: 150px;
+}
+
+.menu {
+  /* background: blue; */
+}
+.menu-item {
+  display: flex;
+  gap: 20px;
+  padding: 40px 20px;
+}
+.menu-item li a {
+  font-size: 1.2em;
+  color: #111;
+  font-weight: bold;
+  border-bottom: 1px solid #111;
+}
+.menu-item li a:hover {
+  color: lightslategray;
+  border-color: lightslategray;
+}
